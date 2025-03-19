@@ -1,0 +1,17 @@
+# Ignore large model files
+epoch_6_1.pth
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store 
+
+
+git rm --cached "epoch_6_1.pth"
